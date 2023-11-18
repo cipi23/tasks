@@ -1,0 +1,25 @@
+name: ENDAVAGPT
+categories:
+  - webex
+value: 100
+flag:
+  file: ./server/f/l/a/g/flag.txt
+description: >-
+  OpenAI API credits are really expensive, so I decided to make my own large
+  language model.
+
+  I told it the flag, but it promised it won't tell you.
+hints:
+  - trust me we use powerful ✨AI✨ and ✨machine learning algorithms✨
+files:
+  - src: ./server/server.js
+  - src: ./server/query/train_train.sql
+authors:
+  - Vasile Fetcu
+  - Ciprian Zariciuc
+  - Iulian Apostol
+deploy:
+  web:
+    build: .
+    expose: 3000/tcp
+visible: true
