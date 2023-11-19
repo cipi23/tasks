@@ -10,7 +10,7 @@ COPY /www/upload.php /var/www/html/upload.php
 COPY /www/apache2.conf /etc/apache2/apache2.conf
 COPY --chown=www-data /www/uploads /var/www/html/uploads
 
-EXPOSE 8003
+EXPOSE 80
 
 CMD /usr/sbin/apache2ctl -D FOREGROUND
 

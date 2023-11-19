@@ -1,0 +1,51 @@
+
+Server ip 52.191.93.96
+porturi deschise 12000-12015
+
+Faster Shop: 12004
+docker verificat
+https://github.com/wectf/2020/tree/master/faster_shop
+https://ctftime.org/writeup/28121 - race condition
+
+Cache: 12001
+de fixat problema cu docker, nu se instaleaza django
+https://github.com/wectf/2021/tree/master/cache
+https://ctftime.org/writeup/29058 - cache poisoning
+
+Csp1 12003
+docker verificat
+https://github.com/wectf/2021/tree/master/csp1
+https://ctftime.org/writeup/29042 - xss
+
+Phish 12005
+docker verificat
+https://github.com/wectf/2021/tree/master/phish
+https://ctftime.org/writeup/29040 - sqlinjection
+
+Coin exchange 12002
+docker verificat
+https://github.com/wectf/2021/tree/master/coin-exchange
+https://ctftime.org/writeup/29074 - csrf CSWSH Cross-site websocket hijacking
+
+potato 12010
+docker verificat
+https://ctftime.org/task/9757 - rce with php upload 
+https://github.com/ritsec/RITSEC-CTF-2019/tree/master/Web/potat0
+
+FrancesALen 12006
+docker verificat
+https://github.com/FITSEC/cyberheroines_ctf_23/tree/main/web/FrancesAllen
+https://ctftime.org/writeup/37875 - ssti with jinja2
+
+Shafrira Goldwasser 12007
+docker verificat
+https://ctftime.org/writeup/37902 - command injection in sqlite
+https://github.com/FITSEC/cyberheroines_ctf_23/tree/main/web/ShafriraGoldwasser
+
+endavagpt - sqlinj 12008
+docker verificat
+solutia in repo
+
+cookiejar 12009
+docker verificat
+solutia in repo
